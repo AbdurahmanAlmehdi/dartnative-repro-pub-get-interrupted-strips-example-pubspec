@@ -1,0 +1,5 @@
+.dart_tool/
+pubspec.lock
+.dn-plugins-dependencies
+dn_plugins.lock
+lib/dartnative_plugin_registrant.dart

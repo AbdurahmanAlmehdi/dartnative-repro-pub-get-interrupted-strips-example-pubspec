@@ -1,0 +1,11 @@
+name: dn_example_repro
+description: A Dart-only package (no native code) that uses a first-party DartNative plugin.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  dartnative: ^1.0.0
+  dartnative_path_provider: ^1.0.0
