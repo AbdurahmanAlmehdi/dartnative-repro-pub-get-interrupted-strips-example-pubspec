@@ -1,5 +1,7 @@
 # Repro: an interrupted `dn pub get` leaves `example/pubspec.yaml` stripped
 
+Issue: https://github.com/DartNative/dartnative/issues/72
+
 `dn pub get` in a package's `example/` app rewrites `example/pubspec.yaml` in
 place while it resolves: the `dartnative*` dependencies are removed and
 `dependency_overrides` pointing at `.dart_tool/dartnative_sdk/` are added.
